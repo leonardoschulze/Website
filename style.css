@@ -44,3 +44,26 @@ main{
     margin-left: 32px;
 
 }
+
+.camisa{
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+    padding: 5px;
+    border-style: solid;
+    border-color:rgb(0, 162, 255);
+    width: 300px;
+}
+
+#camisas{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+}
