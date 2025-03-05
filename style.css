@@ -99,3 +99,10 @@ h1{
 #sobre{
     
 }
+
+
+#rodape{
+    padding: 30px;
+    background-color:  rgb(212, 212, 212);
+    text-align: center;
+}
