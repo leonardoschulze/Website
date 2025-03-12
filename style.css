@@ -96,9 +96,6 @@ h1{
     justify-content: space-between;
 }
 
-#sobre{
-    
-}
 
 .rodape{
     padding: 30px;
@@ -107,4 +104,66 @@ h1{
     position: absolute;
     width: 100%;
     bottom: -30%;
+}
+
+.carrossel {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container-imagens {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.container-imagens img {
+    scroll-snap-align: start;
+    flex: 0 0 calc(50% - 5px);
+    max-width: 100%;
+
+}
+
+.sobre {
+    text-align: center;
+}
+
+form {
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    background-color: blueviolet;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: 100%;
+    color: bisque;
+    align-self: flex-start;
+    transition: 0.15s linear;
+}
+
+label:focus-within {
+    color: chartreuse;
+}
+
+input {
+    font-size: 1.1875rem;
+    color: brown;
+    padding: 1rem 0 0.5rem 0;
+    width: 100%;
+    border: none;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    margin-bottom: 3rem;
+    transition: 0.15s linear;
 }
